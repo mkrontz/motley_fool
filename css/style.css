@@ -1,0 +1,354 @@
+body {
+	background-color: #e7e7e7;
+	margin-top: 20px;
+}
+
+.panel-default > .panel-heading-stock-advisor {
+    background: #0077AA; color: #fff;
+    padding-left: 240px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.panel-default > .panel-heading-hidden-gems {
+    background: #337733; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-rule-breakers {
+    background: #DD5511; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-rule-your-retirement {
+    background: #446699; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-income-investor {
+    background: #228899; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-inside-value {
+    background: #AA7700; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-million-dollar-portfolio {
+    background: #70388C; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-wealth-defender {
+    background: #2ECC71; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-options {
+    background: #3F7D89; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-explorer {
+    background: #003366; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-pro {
+    background: #007766; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-supernova {
+    background: #003366; color: #fff;
+    height: 70px;
+}
+
+.panel-default > .panel-heading-one {
+    background: #41241C; color: #fff;
+    height: 70px;
+}
+
+a.small_a {
+	color: white;
+}
+
+span.green_p {
+	font-size: 18px;
+	color: green;
+	font-weight: bolder;
+}
+
+h1.hero_title_text {
+	font-size: 48px;
+	font-weight: bolder;
+	letter-spacing: -1px;
+	color: #09549e;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.hero_title {
+	float: left;
+	max-width: 40%;
+    margin-top: -10px;
+    margin-left: -85px;
+}
+
+.hero_title p {
+	margin-top: -13px;
+}
+
+img.stock_advisor_img {
+	float: left;
+    margin-top: -45px;
+}
+
+img.small_panel_img {
+	position: absolute;
+	float: left;
+	bottom: 0;
+	margin-bottom: 21px;
+}
+
+.panel.panel-default.panel-small {
+	min-height: 280px;
+}
+
+.well.title-well {
+	max-width: 100%;
+	margin-bottom: 0;
+	padding: 8px;
+	background-color: white;
+}
+
+.well.small-well {
+	max-width: 60%;
+	margin-left: 29.5%;
+	margin-top: 10px;
+	background-color: white;
+	padding: 8px;
+	position: absolute;
+}
+
+.btn.btn-success.btn-large {
+	width: 230px;
+	height: 60px;
+	font-size: 28px;
+	font-weight: bolder;
+	padding-top: 8px;
+}
+
+.hero_cta {
+	float: left;
+	margin-left: 40px;
+    margin-top: 61px;
+}
+
+h1.hero_cta_text {
+	font-size: 48px;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+
+.small_cta {	
+	width: 70%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 32px;
+	margin-left: 24.5%;
+}
+
+h3.small_cta_text {
+	float: right;
+	padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-right: 15px;
+}
+
+.btn.btn-success.btn-small {
+	float: right;
+	margin-right: 27px;
+}
+
+.panel-hero {
+	padding: 0;
+}
+
+.hidden_panel_img {
+	float: left;
+}
+
+h1.small_title_text{
+	font-size: 26px;
+	margin-top: -3px;
+}
+
+h2.small_title_text {
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: -5px;
+}
+
+@media screen and (min-width: 980px) {
+	.panel-default > .panel-heading {
+	min-height: 90px;
+}	
+
+	.panel-default > .panel-heading-stock-advisor {
+	min-height: 50px;
+}	
+
+.panel.panel-default.panel-small {
+	min-height: 295px;
+}
+}	
+
+@media screen and (max-width: 768px) {
+.hero_title {
+	float: right;
+	max-width: 50%;
+	margin-left: 0;
+	margin-top: -15px;
+	padding: 15px;
+}
+
+.hero_cta {
+	float: right;
+	margin-top: -17px;
+	padding-bottom: 20px;
+    margin-right: 16%;
+}
+
+.well.small-well {
+	max-width: 100%;
+	position: relative;
+	margin-right: 4.5%;
+	margin-top: 20px;
+}
+
+h1.small_title_text{
+	font-size: 18px;
+	margin-top: 3px;
+}
+
+h2.small_title_text {
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 3px;
+}
+
+h3.small_cta_text {
+	margin-right: 5%;
+}
+
+img.small_panel_img {
+	margin-bottom: 0px;
+}
+
+img.stock_advisor_img {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 21px;
+}
+
+.panel-heading.panel-heading-stock-advisor {
+	padding-left: 2%;
+	font-size: 18px;
+}
+}
+
+@media screen and (max-width: 414px) {
+
+.well.small-well {
+    width: 91%;
+    margin-bottom: 70px;
+	float: right;
+}
+
+.well.title-well {
+	width: 100%;
+}
+
+.panel.panel-default.panel-hero {
+    min-height: 720px;
+}
+
+.small_cta {
+	position: relative;
+	float: right;
+}
+
+.hero_cta {
+	float: none;
+	margin: auto;
+	margin-left: 20%;
+}
+
+.btn.btn-success.btn-small {
+	margin-right: 6.5%;
+}
+
+.panel-default > .panel-heading {
+	min-height: 90px;
+}	
+
+h2.small_title_text {
+	line-height: 18px;
+	margin-top: -2px;
+}
+
+img.small_panel_img {
+	margin-bottom: 1px;
+}
+
+.hero_title {
+	min-width: 100%;
+	position: relative;
+}
+
+img.stock_advisor_img.img-responsive {
+	max-width: 60%;
+}
+
+h1.hero_title_text {
+	text-align: center;
+}
+
+p.hero_p {
+	text-align: center;
+}
+}
+
+@media screen and (max-width: 375px) {
+.panel.panel-default.panel-hero {
+    min-height: 730px;
+}
+}
+
+@media screen and (max-width: 320px) {
+
+.panel.panel-default.panel-hero {
+    min-height: 730px;
+}
+
+.small_cta {
+	width: 50%;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+h3.small_cta_text {
+	margin-right: 8%;
+}
+
+h1.hero_title_text {
+	font-size: 38px;
+}
+
+.hero_cta {
+	margin-left: 10%;
+}
+}
